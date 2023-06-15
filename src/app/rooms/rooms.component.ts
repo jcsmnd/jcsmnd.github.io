@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./rooms.component.scss']
 })
 export class RoomsComponent {
-
+  var1 = "\"it\'s me.\"";
+  int1 = 10;
+  
+  clk01(e:string, v:number = 5) {
+    console.log('e:', e, 'v:', v);
+  }
 }
