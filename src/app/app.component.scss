@@ -51,6 +51,7 @@
   background: linear-gradient(to right, #fff, var(--primary-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
 
 .hero-title {
