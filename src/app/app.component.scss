@@ -37,6 +37,7 @@
 .hero-container {
   position: relative;
   z-index: 10;
+  padding: 0 1rem;
 }
 
 .hero-content {
@@ -44,7 +45,7 @@
 }
 
 .hero-name {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(1.5rem, 8vw, 4rem);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 1rem;
